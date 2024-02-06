@@ -82,13 +82,13 @@ header{
 
 input{
     margin-top: 20px;
-    padding: 10px;
     border-radius: 10px;
     background-color: rgba(128, 128, 128, 0.361);
-    resize:30 ;
+    /* resize:30 ; */
     padding: 20px;
     border: 1px solid rgba(128, 128, 128, 0.361);
     color: white;
+    width: 344px;
     
 }
 input:hover{
