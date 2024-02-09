@@ -40,4 +40,17 @@ function abrirMenu(){
     document.getElementById('menu-fechado').style.width = "100vw"
 
 }
+
+var i = 0
+var vel = 80
+var txt = 'Selecione uma Funcionária'
+
+function digitacaoH1(){
+
+if(i<txt.length){
+    document.getElementById('h1').innerHTML += txt.charAt(i)
+    i++
+    setTimeout(digitacaoH1,vel)
+}
+}
                     

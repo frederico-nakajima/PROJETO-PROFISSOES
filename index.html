@@ -12,7 +12,7 @@
    
     <title>Profissões</title>
 </head>
-<body onresize="mudouTamanho()">
+<body onresize="mudouTamanho()" onload="digitacaoH1()">
     <aside id="menu-fechado" class="menu-fechado">
         <span  class="material-symbols-outlined" onclick="fecharMenu()" >
             close
@@ -30,7 +30,7 @@
 
     <header>
        
-        <h1>Selecione uma Funcionária</h1>
+        <h1 id="h1"></h1>
         
         <div class="input-filtro">
             <input type="text" size="38px" placeholder="Digite uma Profissão">
