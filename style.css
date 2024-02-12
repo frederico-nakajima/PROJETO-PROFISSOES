@@ -36,6 +36,9 @@ h1{
     cursor: pointer;
    
 }
+.fechar{
+    margin-left: 70%;
+}
 
 .menu-fechado{
     position: fixed;

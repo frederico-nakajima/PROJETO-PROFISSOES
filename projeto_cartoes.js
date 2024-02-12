@@ -34,10 +34,12 @@ function mudouTamanho(){
 
 function fecharMenu(){
     document.getElementById('menu-fechado').style.width = "0vw"
+    document.getElementById('menu-fechado').style.transition = "0.3s"
     
 }
 function abrirMenu(){
     document.getElementById('menu-fechado').style.width = "100vw"
+    document.getElementById('menu-fechado').style.transition = "0.3s"
 
 }
 
