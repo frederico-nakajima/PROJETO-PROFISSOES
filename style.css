@@ -134,9 +134,9 @@ div.card{
     height: 150px;
     margin-top: 150px;
    
-  
-    
-    
+}
+ div.hover:hover {
+    transform: scale(1.1)
 }
 h2{
     margin: 50px auto 5px auto;
@@ -232,7 +232,6 @@ p{
     }
     
     .menu-fechado{
-        background-color: black;
         width: 100vw;
         height: 100px;
         position: fixed;
@@ -240,8 +239,8 @@ p{
         left: 0px;
         display: flex;
         flex-direction: row;
-        align-items: flex-end; 
-        gap: 20px; 
+        
+        gap: 40px; 
 
     }
     .material-symbols-outlined {
@@ -250,11 +249,24 @@ p{
     }
 
     #menu-fechado a{
+       
     text-decoration: none;
     position: relative;
     left: 70vw;
-    /* display: inline; */
+    margin-right: -20px;
+    padding: 15px;
 
+    }
+    .menu-fechado a:hover{
+        background-color:rgba(128, 128, 128, 0.533);
+        color: white;
+        border-radius: 10px;
+    }
+    .menu-fechado a:nth-child(5):hover{
+        background-color:rgba(128, 128, 128, 0.533);
+        color: white;
+        border-radius: 10px;
+        border: 1px solid yellow;
     }
     header{
         background: black;
