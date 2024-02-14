@@ -52,6 +52,7 @@ h1{
     background-color: black;
     top: 0px;
     left: 0px;
+    transition: 0.3s;
 
 }
 .menu-fechado a{
@@ -201,6 +202,7 @@ p{
         background-color: black;
         display: flex;
         flex-direction: column;
+        transition: 0.3s;
        
      
 
@@ -240,6 +242,7 @@ p{
         left: 0px;
         display: flex;
         flex-direction: row;
+        transition: none;
         
         
         gap: 40px; 
