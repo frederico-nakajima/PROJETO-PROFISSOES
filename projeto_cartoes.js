@@ -4,7 +4,7 @@ const cards = document.querySelectorAll("div.card")
 filterElement.addEventListener("input",filterCards);
 
 function filterCards(){
-    if(filterElement === ""){
+    if(filterElement.value === ""){
         for (let card of cards) {
             card.style.display = "block";   
         }

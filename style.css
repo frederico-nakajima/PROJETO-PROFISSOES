@@ -201,6 +201,7 @@ p{
         background-color: black;
         display: flex;
         flex-direction: column;
+       
      
 
     }
@@ -239,6 +240,7 @@ p{
         left: 0px;
         display: flex;
         flex-direction: row;
+        
         
         gap: 40px; 
 
