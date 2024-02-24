@@ -169,6 +169,14 @@ p{
     font-size: 1.4rem;
     color: white;
 }
+iframe{
+    width: 90vw;
+    margin-bottom: 15px;
+}
+p#margin-botom{
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
 
 
 
@@ -226,6 +234,11 @@ p{
         
        
     }
+    iframe{
+        width: 500px;
+        margin: 5px auto 10px auto;
+    }
+    
     
 }
 
@@ -319,6 +332,17 @@ p{
         gap: 10px;
         
     
+    }
+    footer{
+        height: 600px;
+    }
+    iframe{
+        width: 500px;
+        margin: 5px auto 10px auto;
+    }
+
+    p#margin-botom{
+        margin-bottom: 30px;
     }
 
 
