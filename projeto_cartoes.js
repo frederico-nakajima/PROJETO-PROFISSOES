@@ -55,4 +55,19 @@ if(i<txt.length){
     setTimeout(digitacaoH1,vel)
 }
 }
+
+
+const modal = document.querySelector("dialog")
+
+
+
+function mostrarModal(){
+    modal.showModal()  
+   
+}
+function fecharModal(){
+    modal.close()
+
+
+}
                     

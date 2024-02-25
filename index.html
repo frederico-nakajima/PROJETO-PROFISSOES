@@ -7,21 +7,35 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="shortcut icon" href="rh.jpg" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
    
     <title>Profissões</title>
 </head>
 <body onresize="mudouTamanho()" onload="digitacaoH1()">
+    
+        <dialog >
+            <h2>Aqui terá um formulário de LOGIN</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam enim pariatur reiciendis deleniti perspiciatis reprehenderit dolorem libero ex, labore distinctio omnis dolores laborum commodi maxime doloremque officia, voluptatem rem! Alias.</p>
+            <span class="material-symbols-outlined" id="close" onclick="fecharModal()">
+                close
+                </span>
+        </dialog>
+
+    
     <aside id="menu-fechado" class="menu-fechado">
-        <span  class="fechar material-symbols-outlined" onclick="fecharMenu()" >
+        <span  class="material-symbols-outlined" id="fechar" onclick="fecharMenu()" >
             close
         </span>
         <a href="#">SOBRE</a>
         <a href="#">CURSOS</a>
         <a href="#">ENDEREÇOS</a>
-        <a href="#">LOGIN</a>
+        <a href="#"  onclick="mostrarModal()">LOGIN</a>
     </aside>
+
+
+
     <div id="principal">
         <span   class="material-symbols-outlined" onclick="abrirMenu()">
             menu

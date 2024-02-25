@@ -17,11 +17,26 @@ body{
     color: white;
     
 }
-
-span {
+dialog{
+    margin: auto;
     padding: 20px;
-
+    border-radius: 15px;
 }
+dialog::backdrop{
+    background-color: rgba(0, 0, 0, 0.806);
+}
+
+dialog h2{
+    color: black;
+    margin: auto auto;
+}
+dialog p{
+    color: black;
+}
+dialog span#close{
+    color: black;
+}
+
 h1{
     text-align: center;
     margin:0px 10px;
@@ -34,9 +49,10 @@ h1{
     font-size: 30px;
     color: white;
     cursor: pointer;
+    padding: 20px;
    
 }
-.fechar{
+#fechar{
     margin-left: 80%;
 }
 
@@ -152,7 +168,7 @@ hr{
 }
 footer{
 
-    height: 50vh;
+    height: 70vh;
     background-color: #202024;
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
@@ -246,6 +262,16 @@ p#margin-botom{
     body{
         background: linear-gradient(  yellow , black 6.5%);
     }
+    dialog{
+        border: none;
+        margin: auto;
+        padding: 20px 20px 100px 20px;
+        height: 50vh;
+        width: 70vw;
+    }
+    dialog span#close{
+        color: black;
+    }
     
     .menu-fechado{
         width: 100vw;
@@ -261,7 +287,7 @@ p#margin-botom{
         gap: 40px; 
 
     }
-    .material-symbols-outlined {
+    #fechar{
     display: none;
 
     }
