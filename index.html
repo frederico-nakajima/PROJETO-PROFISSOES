@@ -16,8 +16,19 @@
 <body onresize="mudouTamanho()" onload="digitacaoH1()">
     
         <dialog >
-            <h2>Aqui terá um formulário de LOGIN</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam enim pariatur reiciendis deleniti perspiciatis reprehenderit dolorem libero ex, labore distinctio omnis dolores laborum commodi maxime doloremque officia, voluptatem rem! Alias.</p>
+            <div class="form-wrapper">
+                <form action="">
+                  <div class="input-block">
+                    <label for="login-email">Email</label>
+                    <input type="email" id="login-email" />
+                  </div>
+                  <div class="input-block">
+                    <label for="login-password">Password</label>
+                    <input type="password" id="login-password" />
+                  </div>
+                  <button type="submit" class="btn-login">Login</button>
+                </form>
+              </div>
             <span class="material-symbols-outlined" id="close" onclick="fecharModal()">
                 close
                 </span>
