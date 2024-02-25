@@ -21,9 +21,11 @@ dialog{
     margin: auto;
     padding: 20px;
     border-radius: 15px;
+    background-color: white;
+    border: 1px solid rgba(128, 128, 128, 0.244);
 }
 dialog::backdrop{
-    background-color: rgba(0, 0, 0, 0.806);
+    background-color: rgba(0, 0, 0, 0.887);
 }
 
 dialog h2{
@@ -34,7 +36,7 @@ dialog p{
     color: black;
 }
 dialog span#close{
-    color: black;
+    color: gray;
 }
 
 h1{
@@ -82,6 +84,9 @@ form {
     border: 1px solid #ccddef;
     outline-color: #7159c1;
   }
+  form .input-block input:hover{
+    border-color: #7159c1;
+  }
   
   form .btn-login {
     display: block;
@@ -92,6 +97,9 @@ form {
     border-radius: 25px;
     margin: auto;
     padding: 7px;
+  }
+  form .btn-login:hover{
+    background-color: #7159c17d;
   }
 
 .menu-fechado{
