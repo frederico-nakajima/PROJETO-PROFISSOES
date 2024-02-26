@@ -177,9 +177,13 @@ section{
       
 }
 div.card{
-    width: 344px;
+    width: 320px;
     height: 498px;   
    
+}
+div.card:hover{
+    background-color: rgba(128, 128, 128, 0.259);
+
 }
 div.card{
     justify-self: center;
