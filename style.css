@@ -127,6 +127,7 @@ form {
     margin-bottom: 30px;
     position: relative;
     top: 20%;
+    line-height: 50px;
 
 }
 .menu-fechado a:hover{
