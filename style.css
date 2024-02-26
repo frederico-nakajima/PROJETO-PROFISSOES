@@ -247,6 +247,14 @@ p#margin-botom{
 @media screen and (min-width:768px) and (max-width:992px){
     body{
         background: linear-gradient(  yellow , black 3.7%);
+        height: 100vh;
+    }
+    dialog{
+        
+        margin: auto;
+        padding: 20px 20px 0px 20px;
+        height: 400px;
+        width: 500px;
     }
     h1{
         margin-top: 0px;
@@ -282,7 +290,7 @@ p#margin-botom{
     .menu-fechado a{
         display: block;
         text-decoration: none;
-        font-size: 30px;
+        font-size: 20px;
         color: white;
         margin-bottom: 30px;
 
@@ -311,16 +319,22 @@ p#margin-botom{
         background: linear-gradient(  yellow , black 6.5%);
     }
     dialog{
-        border: none;
+        
         margin: auto;
-        padding: 20px 20px 100px 20px;
-        height: 50vh;
-        width: 70vw;
+        padding: 20px 20px 0px 20px;
+        height: 400px;
+        width: 500px;
     }
     dialog span#close{
-        color: black;
+        color: gray;
     }
-    
+
+    form {
+        
+        background-color: rgba(128, 128, 128, 0);
+        
+        border-radius: 5px;
+      }
     .menu-fechado{
         width: 100vw;
         height: 100px;
