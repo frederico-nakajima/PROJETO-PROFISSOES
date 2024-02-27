@@ -12,7 +12,7 @@ function filterCards(){
            
     } else{
         for (let card of cards) {
-            let title = card.querySelector("p");
+            let title = card.querySelector("p.title");
             title = title.textContent.toLowerCase();
             let filterText = filterElement.value.toLowerCase();
             if(title.includes(filterText)){
