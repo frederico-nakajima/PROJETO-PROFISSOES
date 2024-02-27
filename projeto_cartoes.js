@@ -1,4 +1,5 @@
-const filterElement = document.querySelector("input");
+
+const filterElement = document.querySelector("input.prof");
 const cards = document.querySelectorAll("div.card")
 
 filterElement.addEventListener("input",filterCards);
