@@ -45,9 +45,8 @@ const videos = [
 videos.map(video => {
   const cardClone = card.cloneNode(true);
   cardClone.querySelector("img").src = video.thumb;
-  cardClone.querySelector("h2.nome").innerHTML = video.name;
-  cardClone.querySelector("p.profissa").innerHTML =
-    video.titulo;
+  cardClone.querySelector("h2").innerHTML = video.name;
+  cardClone.querySelector("p").innerHTML = video.titulo;
   sectionCards.appendChild(cardClone);
 });
 
