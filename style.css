@@ -23,11 +23,11 @@ dialog{
     margin: auto;
     padding: 20px;
     border-radius: 15px;
-    background-color: rgba(128, 128, 128, 0.208);
-    border: 1px solid rgba(128, 128, 128, 0.244);
+    background-color: black;
+    border: 1px solid rgba(128, 128, 128, 0.67);
 }
 dialog::backdrop{
-   background-color: black;
+   background-color: rgba(0, 0, 0, 0.793);
 }
 
 dialog h2{
