@@ -24,7 +24,7 @@ form{
 }
 
  button[type="submit"]{
-    padding:.6rem ;
+    padding:1rem ;
    
     display: block;
     width: 85vw;
@@ -34,7 +34,7 @@ form{
     
 }
  button[type="reset"]{
-    padding:.6rem ;
+    padding:1rem ;
     
     display: block;
     width: 85vw;
@@ -43,4 +43,17 @@ form{
     color: white;
    
 
+}
+input[type="text"]{
+    height: 1.5rem;
+}
+input[type="number"]{
+    height: 1.5rem;
+}
+input[type="date"]{
+    height: 1.5rem;
+}
+
+select#iop{
+    height: 1.5rem;
 }
