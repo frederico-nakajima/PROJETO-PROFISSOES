@@ -1,3 +1,10 @@
 body{
     height: 100vh;
 }
+.radio{
+    display: inline-block;
+}
+.radio:not(:has(:checked)){
+    opacity: .4;
+
+}

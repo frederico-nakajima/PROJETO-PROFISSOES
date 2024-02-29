@@ -16,11 +16,11 @@
                 <legend>Dados Pessoais</legend>
                 <p>
                     <label for="itexto">Nome:</label>
-                    <input type="text" id="itexto" required placeholder="digite seu nome" minlength="1"   maxlength="30">
+                    <input type="text" id="itexto" required placeholder="digite seu nome"    maxlength="30">
                 </p>
                 <p>
                     <label for="itexto1">Sobrenome:</label>
-                    <input type="text" id="itexto1" required placeholder="digite seu sobrenome" minlength="1"   maxlength="30">
+                    <input type="text" id="itexto1" required placeholder="digite seu sobrenome"    maxlength="30">
                 </p>
                 <p>
                     <label for="iidade">Idade:</label>
@@ -30,10 +30,7 @@
                     <label for="idata">Data de Nascimento</label>
                     <input type="date"  id="idata">
                 </p>
-                <p>
-                    <label for="hora">Hora do Nascimento</label>
-                    <input type="time"  id="hora">
-                </p>
+              
                 <p>
                     <label for="iop">Estado:</label>
                     <select  id="iop" required>
@@ -62,10 +59,14 @@
                 <fieldset>
                     <legend>Sexo:</legend>
                     <p>
-                        <label for="isex">Masculino:</label>
-                        <input type="radio" name="sex" id="isex" checked>
-                        <label for="iisex" >Feminino:</label>
-                        <input type="radio" name="sex" id="iisex">
+                        <div class="radio">
+                            <label for="isex">Masculino:</label>
+                            <input type="radio" name="sex" id="isex" checked>
+                        </div>
+                        <div class="radio">
+                            <label for="iisex" >Feminino:</label>
+                            <input type="radio" name="sex" id="iisex">
+                        </div>
                     </p>
                 </fieldset>
               
