@@ -1,10 +1,46 @@
+:root{
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
 body{
     height: 100vh;
+    background-color: black;
+    display: grid;
+    place-items: center;
+   
+    }
+form{
+   width: 90vw;
+    
+    color: white;
 }
 .radio{
     display: inline-block;
 }
 .radio:not(:has(:checked)){
     opacity: .4;
+
+}
+
+ button[type="submit"]{
+    padding:.6rem ;
+   
+    display: block;
+    width: 85vw;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+    
+}
+ button[type="reset"]{
+    padding:.6rem ;
+    
+    display: block;
+    width: 85vw;
+    text-align: center;
+    background-color: blueviolet;
+    color: white;
+   
 
 }
