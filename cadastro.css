@@ -16,11 +16,17 @@ form{
     color: white;
 }
 .radio{
+    margin-top: 20px;
     display: inline-block;
+    
 }
 .radio:not(:has(:checked)){
     opacity: .4;
 
+}
+.radio > div{
+    display: flex;
+    
 }
 
  button[type="submit"]{
@@ -44,8 +50,13 @@ form{
    
 
 }
+
 input[type="text"]{
     height: 1.5rem;
+}
+input[type="radio"]{
+    height: 1.2rem;
+    width: 1.2rem;
 }
 input[type="number"]{
     height: 1.5rem;
