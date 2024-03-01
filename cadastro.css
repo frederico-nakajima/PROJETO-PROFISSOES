@@ -32,22 +32,58 @@ form{
     display: flex;
     
 }
+input{
+    background-color: rgba(128, 128, 128, 0.361);
+}
 input[type="text"]{
     height: 1.5rem;
+   
+    display: block;
+    margin-top: 8px;
+    padding: 7px;
+    font-size: 16px;
+    color: #7159c1;
+    border-radius: 2px;
+    border: 1px solid #ccddef;
+    outline-color: #7159c1;
+
 }
+input[type="text"]:hover{
+    border-color: #7159c1;
+
+}
+
 input[type="radio"]{
     height: 1.2rem;
     width: 1.2rem;
+    font-size: 16px;
+    border: 1px solid #ccddef;
+    outline-color: #7159c1;
 }
 input[type="number"]{
     height: 1.5rem;
+    font-size: 16px;
+    border: 1px solid #ccddef;
+    outline-color: #7159c1;
 }
 input[type="date"]{
     height: 1.5rem;
+    font-size: 16px;
+    border: 1px solid #ccddef;
+    outline-color: #7159c1;
 }
+/* input[type="file"]{
+    height: 1.5rem;
+    font-size: 16px;
+
+} */
 
 select#iop{
     height: 1.5rem;
+    font-size: 16px;
+    border: 1px solid #ccddef;
+    outline-color: #7159c1;
+    background-color: rgba(128, 128, 128, 0.361);
 }
 
  button[type="submit"], button[type="reset"]{
