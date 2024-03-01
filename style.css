@@ -16,7 +16,6 @@ body{
     font-family: 'Roboto', sans-serif;
     color: white;
     
-    
 }
 
 
@@ -31,8 +30,23 @@ dialog::backdrop{
    background-color: rgba(0, 0, 0, 0.902);
 }
 
+dialog h2{
+    color: black;
+    margin: auto auto;
+}
+dialog p{
+    color: black;
+}
 dialog span#close{
     color: gray;
+}
+
+h1{
+    text-align: center;
+    margin:0px 10px;
+    font-size:1.5rem;
+    color: white;
+
 }
 
 .material-symbols-outlined {
