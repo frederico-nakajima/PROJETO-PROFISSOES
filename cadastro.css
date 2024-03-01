@@ -5,7 +5,7 @@
     font-style: normal;
 }
 body{
-   
+   height: 100vh;
     margin: 0;
     padding: 0;
     background-color: black;
@@ -52,7 +52,7 @@ select#iop{
 
  button[type="submit"], button[type="reset"]{
     padding:1rem ;
-   
+    width: 100%;
     display: block;
     
    
