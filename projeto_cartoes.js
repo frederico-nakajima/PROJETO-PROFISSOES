@@ -58,17 +58,4 @@ if(i<txt.length){
 }
 
 
-const modal = document.querySelector("dialog")
-
-
-
-function mostrarModal(){
-    modal.showModal()  
-   
-}
-function fecharModal(){
-    modal.close()
-
-
-}
                     
