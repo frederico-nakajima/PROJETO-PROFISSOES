@@ -46,7 +46,7 @@ function abrirMenu(){
 
 var i = 0
 var vel = 80
-var txt = 'Selecione uma Funcionária'
+var txt = 'Selecione uma Profissão'
 
 function digitacaoH1(){
 
