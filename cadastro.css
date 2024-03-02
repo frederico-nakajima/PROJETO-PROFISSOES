@@ -83,7 +83,8 @@ select#iop{
     outline-color: #7159c1;
     background-color: rgba(128, 128, 128, 0.361);
     color: gray;
-    padding: 5px;
+    padding: 1px;
+    
 }
 
 input[type="radio"]{
