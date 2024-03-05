@@ -188,14 +188,14 @@ div#centralizar{
 h2#slider{
     display: block;
     text-align: center;
-    margin-bottom: 0px;
+    margin-bottom: -30px;
     
 }
 
 #slider {
     width: 80%;
     max-width: 500px;
-    height: 25vw;
+    height: 40vw;
     max-height: 150px;
 
     position: relative;
