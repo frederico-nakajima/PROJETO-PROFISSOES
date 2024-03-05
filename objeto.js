@@ -39,7 +39,33 @@ const videos = [
     thumb: "foto-07.png",
     name: "Alessandra Martini",
     titulo: "Atendente Profissional"
+  },
+  {
+    thumb: "maria-celia.jpg",
+    name: "Maria Célia Nakajima",
+    titulo: "Pedagoga"
+  },
+  {
+    thumb: "sakamoto.jpg",
+    name: "Sakamoto Fuyumi",
+    titulo: "Psicóloga"
+  },
+  {
+    thumb: "Carlos-Bolsonaro-RiodeJaneiro.png",
+    name: "Carlos Bolsonaro",
+    titulo: "Político Profissional"
+  },
+  {
+    thumb: "jair-bolsonaro-100.jpg",
+    name: "Jair Bolsonaro",
+    titulo: "Presidente da República"
+  },
+  {
+    thumb: "giovanna-lancelotti_4745.jpeg",
+    name: "Fernanda Concon",
+    titulo: "Atriz"
   }
+
 ];
 
 videos.map(video => {
