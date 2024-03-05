@@ -16,6 +16,7 @@ body{
 form{
    
    width: 90vw;
+   max-width: 500px;
    color: white;
 }
 
