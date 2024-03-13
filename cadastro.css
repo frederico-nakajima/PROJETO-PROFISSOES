@@ -46,11 +46,11 @@ input[type="text"]{
     color: #7159c1;
     border-radius: 2px;
     border: 1px solid #ccddef;
-    outline-color: #7159c1;
+    outline-color: yellow;
 
 }
 input[type="text"]:hover{
-    border-color: #7159c1;
+    border-color: yellow;
 
 }
 input[type="number"]{
@@ -58,7 +58,7 @@ input[type="number"]{
     height: 1.5rem;
     font-size: 16px;
     border: 1px solid #ccddef;
-    outline-color: #7159c1;
+    outline-color: yellow;
     padding: 5px;
 }
 input[type="date"]{
@@ -66,7 +66,7 @@ input[type="date"]{
     height: 1.5rem;
     font-size: 16px;
     border: 1px solid #ccddef;
-    outline-color: #7159c1;
+    outline-color: yellow;
     color: gray;
     padding: 7px;
 }
@@ -81,7 +81,7 @@ select#iop{
     height: 1.5rem;
     font-size: 16px;
     border: 1px solid #ccddef;
-    outline-color: #7159c1;
+    outline-color: yellow;
     background-color: rgba(128, 128, 128, 0.361);
     color: gray;
     padding: 1px;
@@ -93,7 +93,7 @@ input[type="radio"]{
     width: 1.2rem;
     font-size: 16px;
     border: 1px solid #ccddef;
-    outline-color: #7159c1;
+    outline-color: yellow;
 }
 textarea{
     resize: none;
@@ -107,8 +107,8 @@ textarea{
     display: block;
     
    
-    background-color: blueviolet;
-    color: white;
+    background-color: yellow;
+    color: black;
     
 }
 form{

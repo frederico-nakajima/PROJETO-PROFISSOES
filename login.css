@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image:linear-gradient(135deg,blueviolet ,black 30%);
+    background-image:linear-gradient(135deg,yellow ,black 30%);
     
     width: 100vw;
     height: 100vh;
@@ -26,7 +26,7 @@ form .input-block {
   
   form .input-block label {
     font-size: 14px;
-    color: #7159c1;
+    color: yellow;
   }
   
   form .input-block input {
@@ -35,21 +35,21 @@ form .input-block {
     margin-top: 8px;
     padding: 7px;
     font-size: 16px;
-    color: #7159c1;
+    color:yellow;
     border-radius: 2px;
     border: 1px solid #ccddef;
-    outline-color: #7159c1;
+    outline-color: yellow;
   }
   form .input-block input:hover{
-    border-color: #7159c1;
+    border-color: yellow;
   }
   
   form .btn-login {
     display: block;
     min-width: 120px;
     border: none;
-    background-color: #7159c1;
-    color: white;
+    background-color: yellow;
+    color: black;
     border-radius: 25px;
     margin: auto;
     padding: 7px;
@@ -84,7 +84,7 @@ form .btn-login{
     transform: translateX(0%);
     animation-name:move;
     animation-duration: 2s;
-    animation-delay:3s;
+    animation-delay:2s;
     animation-fill-mode: backwards;
     
 

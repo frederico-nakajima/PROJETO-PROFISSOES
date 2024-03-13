@@ -185,10 +185,21 @@ div#centralizar{
     justify-content: center;
     align-items: center;
 }
+#h2{
+    height: 55px;
+   
+
+}
 h2#slider{
     display: block;
     text-align: center;
     margin-bottom: 0px;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(90deg, yellow , red );
+   background-clip: text;
+   
+   
+  
     
 }
 
@@ -197,6 +208,7 @@ h2#slider{
     max-width: 500px;
     height: 40vw;
     max-height: 150px;
+    
 
     position: relative;
 }
