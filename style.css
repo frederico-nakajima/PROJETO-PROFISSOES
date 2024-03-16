@@ -174,7 +174,7 @@ footer{
     margin-top: 10vh;
     background-color: #202024;
 }
-p{
+p.title{
     margin: .5rem;
     font-size: 1.4rem;
     color: white;
@@ -206,9 +206,9 @@ h2#slider{
 
 #slider {
     width: 80%;
-    max-width: 500px;
+    max-width: 700px;
     height: 40vw;
-    max-height: 150px;
+    max-height: 300px;
     
 
     position: relative;
@@ -218,6 +218,7 @@ h2#slider{
     opacity: 0;
 
     position: absolute;
+    
 
     width: 100%;
     height: 100%;
@@ -231,12 +232,26 @@ h2#slider{
 #slider img.selected { 
     opacity: 1;
 }
+
+#video{
+    display: flex;
+    justify-content: center;
+}
+div iframe{
+    margin: 0;
+}
+
+
 iframe{
     width: 90vw;
     margin-bottom: 15px;
 }
-p#margin-botom{
-    margin-top: 10px;
+p.direitos{
+    line-height: 2rem;
+
+}
+p.margin-botom{
+   
     margin-bottom: 100px;
 }
 
