@@ -237,13 +237,11 @@ h2#slider{
     display: flex;
     justify-content: center;
 }
-div iframe{
-    margin: 0;
-}
+
 
 
 iframe{
-    width: 90vw;
+    width: 80vw;
     margin-bottom: 15px;
 }
 p.direitos{
