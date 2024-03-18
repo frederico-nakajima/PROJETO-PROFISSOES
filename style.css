@@ -118,18 +118,14 @@ section{
     margin-top: 100px;
       
 }
-div.card{
-    width: 320px;
-    height: 498px;   
-   
-}
+
 div.card:hover{
     background-color: rgba(128, 128, 128, 0.259);
 
 }
 div.card{
     justify-self: center;
-    width: 354px;
+    width: 90%;
     height: 508px;
     background-color: rgba(128, 128, 128, 0.208);
     border-radius: 15px;
