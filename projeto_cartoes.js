@@ -24,6 +24,11 @@ function filterCards(){
     }
 }
 
+function curriculo(){
+      // Redireciona para curriculo.html
+      window.location.href = "curriculo.html";
+}
+
 function mudouTamanho(){
     if(window.innerWidth >= 992){
         document.getElementById('menu-fechado').style.width = "100vw"
