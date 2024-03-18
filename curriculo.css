@@ -12,10 +12,10 @@ body{
 }
 
 .wrapper{
-   max-width: 1000px;
+   max-width: 412px;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
     
 }
 
@@ -279,3 +279,14 @@ i{
     margin:10px;
 }
 
+
+
+/* @media screen and (min-width:768px) and (max-width:992px){
+    .wrapper{
+       
+        max-width:992px;
+        grid-template-columns: 1fr 1fr;
+         
+     }
+
+} */
