@@ -293,11 +293,24 @@ i{
 
 @media screen and (min-width:992px) {
     .wrapper{
-        max-width: 600px;
-         
-         
+        
+         max-width: 1200px;
+        grid-template-columns: 1fr 2fr ;
           
       }
+      .left-side{
+       
+        grid-column: 1/2;
+        min-width: 412px;
+    
+    }
 
+    .right-side{
+
+        min-width: 788px;
+            grid-column: 2/3;
+        
+    
+    }
     
 }
