@@ -281,12 +281,23 @@ i{
 
 
 
-/* @media screen and (min-width:768px) and (max-width:992px){
+@media screen and (min-width:768px) and (max-width:992px){
     .wrapper{
-       
-        max-width:992px;
-        grid-template-columns: 1fr 1fr;
+       max-width: 600px;
+        
+        
          
      }
 
-} */
+}
+
+@media screen and (min-width:992px) {
+    .wrapper{
+        max-width: 600px;
+         
+         
+          
+      }
+
+    
+}
