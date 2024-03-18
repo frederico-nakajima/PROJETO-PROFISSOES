@@ -3,22 +3,56 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* body{
 
-} */
+body{
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .wrapper{
-   
+   max-width: 1000px;
     height: 100vh;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     
 }
+
+
+/* left-side */
+
+
 .left-side{
-    padding: 15px;
+    padding: 30px;
     background-color: #003047;
     grid-column: 1/2;
+    min-width: 412px;
 
+}
+.foto{
+    text-align: center;
+}
+
+img{
+    border-radius: 50%;
+    width: 160px;
+    height: 160px;
+    
+
+}
+.identidade{
+    color: white;
+    text-align: center;
+
+}
+h3,h2{
+    margin: 15px auto;
+    font-weight: 300;
+}
+hr{
+    margin: 20px auto;
+    border-color: gray;
 }
 .contato{
     margin-top: 20px;
@@ -30,6 +64,8 @@ span.icon{
 }
 span.text{
     color: white;
+    margin-left: 10px;
+    
    
 }
 
@@ -46,13 +82,20 @@ span.text{
 
 
 .date{
+    font-weight: 300;
   
     color: rgb(45, 129, 159);
 }
 
 h4{
+    font-weight: 100;
     color: white;
+    line-height:1.5rem;
   
+}
+
+.area{
+    font-weight: 900;
 }
 .left-side .container{
     position: relative;
@@ -64,7 +107,107 @@ h4{
 }
 
 .left-side .percent{
+    width: 100%;
+    height: 5px;
+    background-color: rgb(45, 129, 159);
+    position: absolute;
+      
+}
+
+
+.portugues{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+   
+}
+.left-side .percent1{
     width: 75%;
+    height: 5px;
+    background-color: rgb(45, 129, 159);
+    position: absolute;
+     
+}
+.idioma{
+    margin-bottom: 20vh;
+}
+.hebraico{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+   
+}
+
+
+.left-side .percent2{
+    width: 35%;
+    height: 5px;
+    background-color: rgb(45, 129, 159);
+    position: absolute;
+  
+}
+.latim{
+    width: 100%;
+    height: 5px;
+    background-color: black;
+    position: absolute;
+   
+
+}
+
+
+
+
+
+
+
+
+/* right-side */
+
+.right-side{
+    background-color: black;
+    padding: 50px;
+    grid-column: 1/2;
+    min-width: 412px;
+   
+}
+p{
+    text-align: justify;
+    color: white;
+}
+
+.experience{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.experience2{
+    margin-top:15px;
+   
+}
+
+.company{
+    text-transform: uppercase;
+}
+.cargos-ocupados{
+    color: white;
+    text-align: justify;
+}
+
+
+.right-side .container{
+    position: relative;
+    color: white;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    
+    
+}
+
+.right-side .percent{
+    width: 100%;
     height: 10px;
     background-color: rgb(45, 129, 159);
     position: absolute;
@@ -74,29 +217,32 @@ h4{
 
 .portugues{
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: black;
     position: absolute;
    
 }
-.left-side .percent1{
+.right-side .percent1{
     width: 75%;
     height: 10px;
     background-color: rgb(45, 129, 159);
     position: absolute;
      
 }
+.idioma{
+    margin-bottom: 20vh;
+}
 .hebraico{
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: black;
     position: absolute;
    
 }
 
 
-.left-side .percent2{
-    width: 35%;
+.right-side .percent2{
+    width: 30%;
     height: 10px;
     background-color: rgb(45, 129, 159);
     position: absolute;
@@ -104,7 +250,7 @@ h4{
 }
 .latim{
     width: 100%;
-    height: 10px;
+    height: 5px;
     background-color: black;
     position: absolute;
    
@@ -112,9 +258,24 @@ h4{
 }
 
 
-
-
-
-.right-side{
-    background-color: black;
+.interesses, .habilidades-profissionais, .experience1, .profile1 {
+   font-weight: 800;
+    color: white;
+    text-transform: uppercase;
+    margin-top: 45px;
+    margin-bottom: 20px;
 }
+ul{
+    display: grid;
+    grid-template-columns: repeat(2,4fr);
+    gap: 50px;
+}
+li{
+    list-style: none;
+    color: white;
+   
+}
+i{
+    margin:10px;
+}
+
