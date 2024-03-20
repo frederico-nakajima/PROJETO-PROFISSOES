@@ -183,7 +183,7 @@ p{
 
 .experience{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr ;
 }
 .experience2{
     margin-top:15px;
