@@ -13,7 +13,7 @@ for(let i = 0; i < 11; i++){
     const delay = random(5, 0.1)
     const duration = random(24,12)
 
-    li.style.width = `${size}px;`
+    li.style.width = `${size}px`
     li.style.height = `${size}px`
     li.style.bottom = `-${size}px`
 
