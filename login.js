@@ -10,8 +10,8 @@ for(let i = 0; i < 11; i++){
     const size = Math.floor(random(10,120)) 
 
     const position = random(1,77) 
-    const delay = random(5, 0.1)
-    const duration = random(24,12)
+    const delay = random(2, 0.1)
+    const duration = random(15,12)
 
     li.style.width = `${size}px`
     li.style.height = `${size}px`
