@@ -9,7 +9,7 @@ for(let i = 0; i < 11; i++){
 
     const size = Math.floor(random(10,120)) 
 
-    const position = random(1,75) 
+    const position = random(1,77) 
     const delay = random(5, 0.1)
     const duration = random(24,12)
 
