@@ -265,7 +265,7 @@ p.margin-botom{
     background-image: url('prop329.jpg');
     
     background-position: center;
-    z-index: -1;
+   
     background-attachment: fixed;
     background-repeat: no-repeat;
   }
