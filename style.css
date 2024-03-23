@@ -249,6 +249,13 @@ p.margin-botom{
     margin-bottom: 100px;
 }
 
+.publicidade{
+    color: gray;
+    font-size: 10px;
+    text-align: center;
+
+}
+
 #parallax{
     display: flex;
     justify-content: center;
