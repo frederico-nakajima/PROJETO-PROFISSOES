@@ -249,10 +249,16 @@ p.margin-botom{
     margin-bottom: 100px;
 }
 
+#parallax{
+    display: flex;
+    justify-content: center;
+}
+
 .parallax {
     position: relative;
     width: 369px;
     height: 369px;
+
    
   }
   
