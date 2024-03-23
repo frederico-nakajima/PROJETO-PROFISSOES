@@ -417,6 +417,10 @@ p.margin-botom{
     footer{
         height: 600px;
     }
+    .video{
+        width: 700px;
+        height: 500px;
+    }
     iframe{
         width: 500px;
         margin: 5px auto 10px auto;
