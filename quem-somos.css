@@ -11,6 +11,59 @@ body{
     margin: auto;
    
 }
+#h4-1{
+    text-align: center;
+    margin: 30px auto 20px auto;
+}
+#metrica {
+    display: flex;
+    justify-content: center; 
+    align-items: start; 
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    margin: 0px 30px; 
+   
+}
+
+
+
+
+span{
+    display: block;
+}
+
+.faq{
+    display: flex;
+  
+    cursor: pointer;
+     
+
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+  #expand_less{
+    display: block;
+  }
+
+  #expand_more{
+    display: none;
+  }
+
+  #resposta{
+    display: none;
+  }
+
+
+
+
 
 h1{
     margin-top: 50px;
@@ -81,5 +134,8 @@ picture{
     width: 400px;
    margin:30px auto 20vh auto;    
 }
+
+
+
 
 
