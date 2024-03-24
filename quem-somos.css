@@ -76,8 +76,10 @@ picture{
 
 .hr{
     margin-top:50px ;
-    margin-bottom: 20vh;
+   
     border-color: gray;
+    width: 400px;
+   margin:30px auto 20vh auto;    
 }
 
 
