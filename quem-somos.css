@@ -65,7 +65,109 @@ picture{
 .gerente{
     
     max-width: 800px;
-    margin-bottom: 20vh;
+   
     
    
 }
+
+.select{
+    padding: 6rem;
+}
+
+#options{
+    margin-top: .25rem;
+    border-radius: .375rem;
+    border: 1px solid rgba(128, 128, 128, 0.32);
+    background: rgba(128, 128, 128, 0.32);
+    display: none;
+    
+}
+
+.option{
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    
+    padding: .75rem;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.339);
+    position: relative;
+    /* display: none; */
+    
+}
+
+.option .label{
+    color: white;
+    
+}
+
+.option svg{
+    width: 1rem;
+    height: 1rem;
+   
+}
+
+.option svg:last-child{
+    margin-left: auto;
+    color: rgb(193, 189, 198);
+    
+    
+}
+
+.option:has(input:checked),
+.option:hover{
+    border-bottom: 1px solid gray;
+    background-color: rgba(128, 128, 128, 0.463);
+}
+
+.option:has(input:focus){
+    outline: 1px solid rebeccapurple;
+    
+    
+}
+.option [data-lucide="check"]{
+    display: none;
+}
+
+.option:has(input:checked) [data-lucide="check"]{
+    display: block;
+}
+
+.option input[type="radio"]{
+    all: unset;
+    
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    
+    outline: 1px solid  rgba(128, 128, 128, 0.339);
+}
+
+.option:nth-child(1){
+    color:rgb(167, 167, 96);
+}
+.option:nth-child(2){
+    color: rgb(96, 163, 96);
+}
+.option:nth-child(3){
+    color:rgb(128, 68, 184);
+}
+.option:nth-child(4){
+    color: rgb(170, 86, 86);
+}
+.option:nth-child(5){
+    color: rgb(72, 72, 168);
+}
+
+
+#category-select:has(#options-view-button:checked) + #options{
+    display: block;
+}
+
+.select:has(.option input:checked) #category-select label{
+    color: blueviolet;
+}
+
+.select:has(.option input:checked) #category-select{
+    color: white;
+} 
+
