@@ -21,7 +21,8 @@ body{
     align-items: start; 
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
-    margin: 0px 30px; 
+    margin: 0px 30px;
+    width: 90vw; 
    
 }
 
@@ -120,7 +121,9 @@ picture{
     margin: 0px;
 }
 
-
+.responsivo{
+    width: 90vw;
+}
 .gerente-perfil{
     display: flex;
     padding: 0px 30px;   
