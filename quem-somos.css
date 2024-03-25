@@ -22,7 +22,34 @@ body{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     margin: 0px 30px;
+    width: 90vw;
+    
+    position: relative;
+  
+   
+}
+#metrica1 {
+    display: flex;
+    justify-content: center; 
+    align-items: start; 
+   
+    border-bottom: 1px solid gray;
+    margin: 0px 30px;
     width: 90vw; 
+    position: relative;
+  
+   
+}
+
+#metrica2 {
+    display: flex;
+    justify-content: center; 
+    align-items: start; 
+   
+    border-bottom: 1px solid gray;
+    margin: 0px 30px;
+    width: 90vw; 
+    
     position: relative;
   
    
@@ -84,10 +111,11 @@ h1{
     text-align: center;
     margin-bottom: 30px;
     font-weight: normal;
+   
 }
 
 p{
-    
+    font-family: 'Roboto', sans-serif;
 
     text-align: justify;
     margin: auto;
@@ -98,6 +126,11 @@ p{
     
        
     
+}
+.texto{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.5rem;
+
 }
 
 h2{
@@ -130,6 +163,7 @@ picture{
 
 .material-symbols-outlined{
     display: block;
+    
 }
 
 
@@ -140,19 +174,53 @@ picture{
 
     
 }
+
+.responsivo1{
+    width: 90vw;
+    position: relative;
+    margin:50px auto 20vh auto;
+}
+
 .gerente-perfil{
     display: flex;
     padding: 0px 30px;  
     
 
 }
+.hr1{
+    border-color: gray;
+    width:90vw;
+   margin: 10px auto 10px auto; 
+
+}
 
 .hr{
-    margin-top:50px ;
+   
    
     border-color: gray;
     width:90vw;
    margin:30px auto 20vh auto;    
+}
+strong{
+    font-size: 1.2rem;
+    font-weight: 100;
+    margin-right: 15px;
+    color: gray;
+}
+
+strong:hover{
+    color: white;
+}
+
+.nome{
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 20px;
+}
+
+.gerente-rh{
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.3rem;
+    margin-bottom: 30px;
 }
 
 
