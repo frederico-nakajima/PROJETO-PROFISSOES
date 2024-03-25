@@ -117,7 +117,7 @@ h1{
 p{
     font-family: 'Roboto', sans-serif;
 
-    text-align: justify;
+    
     margin: auto;
     line-height: 35px;
     text-indent: 30px;
@@ -202,9 +202,9 @@ picture{
    margin:30px auto 20vh auto;    
 }
 strong{
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 100;
-    margin-right: 15px;
+   
     color: gray;
 }
 
