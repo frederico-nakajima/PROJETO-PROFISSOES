@@ -106,19 +106,23 @@ h1{
    
 }
 
-p{
+.parafrafo-resposta{
     font-family: 'Roboto', sans-serif;
-    font-size: 1rem;
+    
 
     
     margin: auto;
     line-height: 1.5rem;
     text-indent: 30px;
-    width: 90vw;
+    width: 90vw;      
     
-    
-       
-    
+}
+
+.feedBack{
+    margin: 26px auto 26px 0px;
+   
+  
+
 }
 .texto{
     font-family: 'Roboto', sans-serif;
