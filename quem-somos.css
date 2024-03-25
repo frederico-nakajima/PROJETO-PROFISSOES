@@ -108,6 +108,7 @@ h1{
 
 .parafrafo-resposta{
     font-family: 'Roboto', sans-serif;
+    text-align: justify;
     
 
     
@@ -177,7 +178,8 @@ picture{
 
 .gerente-perfil{
     display: flex;
-    padding: 0px 30px;  
+    padding: 0px 30px ; 
+    
     
 
 }
@@ -213,8 +215,9 @@ strong:hover{
 
 .gerente-rh{
     font-family: 'Roboto', sans-serif;
-    line-height: 1.3rem;
+    line-height: 1.7rem;
     margin-bottom: 30px;
+    text-indent: 30px; 
   
 }
 
