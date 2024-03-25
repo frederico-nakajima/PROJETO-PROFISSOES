@@ -106,8 +106,7 @@ h2{
     font-weight: normal;
 }
 picture{
-    display: flex;
-    justify-content: center;
+   
     text-align: center;
     display: block;
 }
@@ -137,6 +136,8 @@ picture{
 .responsivo{
     width: 90vw;
     position: relative;
+    margin: 0 auto;
+
     
 }
 .gerente-perfil{
