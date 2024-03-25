@@ -28,17 +28,22 @@ body{
 }
 
 
-
-
-span{
-    display: block;
+.expand{
+    display: flex;
+    padding: .75rem;
+    align-items: center;
+    justify-content: space-between;
 }
+
+
 
 .faq{
     display: flex;
+    
   
     cursor: pointer;
      width: 90vw;
+     height: 50px;
 
 }
 
@@ -49,10 +54,15 @@ span{
     'wght' 400,
     'GRAD' 0,
     'opsz' 24
+    
+
   }
 
   #expand_less{
     display: block;
+    
+   
+    
   }
 
   #expand_more{
@@ -125,10 +135,12 @@ picture{
 .responsivo{
     width: 90vw;
     position: relative;
+    
 }
 .gerente-perfil{
     display: flex;
-    padding: 0px 30px;   
+    padding: 0px 30px;  
+    
 
 }
 
