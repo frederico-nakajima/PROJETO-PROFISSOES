@@ -107,13 +107,13 @@ h1{
 }
 
 .parafrafo-resposta{
-    font-family: 'Roboto', sans-serif;
+  
     text-align: justify;
     
 
     
     margin: auto;
-    line-height: 1.3rem;
+   
     text-indent: 30px;
     width: 90vw;      
     
@@ -121,17 +121,11 @@ h1{
 
 .feedBack{
     margin: 26px auto 26px 0px;
-   font-size: 1.5rem;
+  
   
 
 }
-.texto{
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.5rem;
-    font-size: 1.5rem;
-   
 
-}
 .nome{
     text-align: center;
 }
@@ -202,8 +196,8 @@ picture{
    margin:30px auto 20vh auto;    
 }
 strong{
-    font-size: 1rem;
-    font-weight: 100;
+   
+   
    
     color: gray;
 }
@@ -213,13 +207,13 @@ strong:hover{
 }
 
 .nome{
-    font-family: 'Roboto', sans-serif;
+  
     margin-bottom: 20px;
 }
 
 .gerente-rh{
-    font-family: 'Roboto', sans-serif;
-    line-height: 1.7rem;
+   
+    
     margin-bottom: 30px;
     text-indent: 30px; 
   
