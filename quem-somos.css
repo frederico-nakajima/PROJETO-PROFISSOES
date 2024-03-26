@@ -124,14 +124,14 @@ h1{
 
 .feedBack{
     margin: 26px auto 26px 0px;
-   font-size: 1.5rem;
+   
   
 
 }
 .texto{
     font-family: 'Roboto', sans-serif;
     line-height: 1.5rem;
-    font-size: 1.5rem;
+   
    
 
 }
@@ -209,7 +209,7 @@ picture{
    margin:30px auto 20vh auto;    
 }
 strong{
-    font-size: 1rem;
+    
     font-weight: 100;
    
     color: gray;
