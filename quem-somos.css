@@ -22,7 +22,7 @@ body{
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
     margin: 0px 30px;
-    width: 90vw;
+    width:100vw;
     
     position: relative;
   
@@ -35,7 +35,7 @@ body{
    
     border-bottom: 1px solid gray;
     margin: 0px 30px;
-    width: 90vw; 
+    width: 100vw; 
     position: relative;
   
    
@@ -74,7 +74,7 @@ body{
     
   
     cursor: pointer;
-     width: 90vw;
+     width: 100vw;
      height: 70px;
 
 }
@@ -133,6 +133,7 @@ h1{
 .texto{
     font-family: 'Roboto', sans-serif;
     line-height: 1.5rem;
+    width: 100vw;
    
    
 
@@ -189,7 +190,7 @@ picture{
     
     padding: 0px 30px ;
     display: flex;
-    
+    width: 100vw;
     align-items: center;
     justify-content: space-between;
     
