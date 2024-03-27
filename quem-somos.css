@@ -13,8 +13,8 @@ body{
 }
 #metrica {
     
-    justify-content: center; 
-    align-items: start; 
+   
+   
     border-top: 1px solid gray;
     border-bottom: 1px solid gray;
    
@@ -28,19 +28,19 @@ body{
 
 
 .expand{
-    display: flex;
+  
     padding: .75rem;
-    align-items: center;
-    justify-content: space-between;
+  
+   
 }
 
 
 
 .faq{
-    display: flex;
+   
     
-    align-items: center;
-    justify-content: space-between;
+   
+  
     
     
   
