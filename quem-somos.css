@@ -109,6 +109,13 @@ h1{
    
 }
 
+.feedBack{
+    margin: 26px auto 26px 0px;
+    font-size: 1rem;
+  
+
+}
+
 .parafrafo-resposta{
     font-family: 'Roboto', sans-serif;
     text-align: justify;
@@ -122,12 +129,7 @@ h1{
     
 }
 
-.feedBack{
-    margin: 26px auto 26px 0px;
-   
-  
 
-}
 .texto{
     font-family: 'Roboto', sans-serif;
     line-height: 1.5rem;
