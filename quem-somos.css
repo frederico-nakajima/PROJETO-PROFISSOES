@@ -52,6 +52,18 @@ h2{
 #expand_more{
     display: none;
 }
+#expand_more1{
+    display: none;
+}
+#expand_more2{
+    display: none;
+}
+#expand_more3{
+    display: none;
+}
+#expand_more4{
+    display: none;
+}
 
 .texto{
     margin: 10px;

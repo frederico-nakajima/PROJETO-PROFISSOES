@@ -24,12 +24,12 @@ function feedBack(){
 function feedBack1(){
     if(resposta1.style.display === 'none'){
     resposta1.style.display = 'block'
-    expand_less.style.display = 'none'
-    expand_more.style.display = 'block'
+    expand_less1.style.display = 'none'
+    expand_more1.style.display = 'block'
 }else{
       resposta1.style.display = 'none'
-    expand_less.style.display = 'block'
-    expand_more.style.display = 'none'
+    expand_less1.style.display = 'block'
+    expand_more1.style.display = 'none'
 
 }
 
@@ -38,12 +38,12 @@ function feedBack1(){
 function feedBack2(){
     if(resposta2.style.display === 'none'){
     resposta2.style.display = 'block'
-    expand_less.style.display = 'none'
-    expand_more.style.display = 'block'
+    expand_less2.style.display = 'none'
+    expand_more2.style.display = 'block'
 }else{
       resposta2.style.display = 'none'
-    expand_less.style.display = 'block'
-    expand_more.style.display = 'none'
+    expand_less2.style.display = 'block'
+    expand_more2.style.display = 'none'
 
 }
 
@@ -52,12 +52,12 @@ function feedBack2(){
 function feedBack3(){
     if(resposta3.style.display === 'none'){
     resposta3.style.display = 'block'
-    expand_less.style.display = 'none'
-    expand_more.style.display = 'block'
+    expand_less3.style.display = 'none'
+    expand_more3.style.display = 'block'
 }else{
       resposta3.style.display = 'none'
-    expand_less.style.display = 'block'
-    expand_more.style.display = 'none'
+    expand_less3.style.display = 'block'
+    expand_more3.style.display = 'none'
 
 }
 
@@ -66,12 +66,12 @@ function feedBack3(){
 function feedBack4(){
     if(resposta4.style.display === 'none'){
     resposta4.style.display = 'block'
-    expand_less.style.display = 'none'
-    expand_more.style.display = 'block'
+    expand_less4.style.display = 'none'
+    expand_more4.style.display = 'block'
 }else{
       resposta4.style.display = 'none'
-    expand_less.style.display = 'block'
-    expand_more.style.display = 'none'
+    expand_less4.style.display = 'block'
+    expand_more4.style.display = 'none'
 
 }
 
