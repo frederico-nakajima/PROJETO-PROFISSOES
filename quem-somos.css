@@ -40,7 +40,7 @@ span{
     display: block;
 }
 .texto{
-    margin-left: 5px;
+    margin: 10px;
 }
 .gerente{
     display: block;
@@ -49,4 +49,9 @@ span{
 }
 .gerente-rh{
     margin: 10px auto;
+}
+hr{
+    border-color: gray;
+   
+   
 }
