@@ -1,0 +1,101 @@
+*{box-sizing: border-box; margin: 0;
+    padding: 0;}
+body{
+    font-family: Arial;
+   background-color: black;
+    height: 100vh;
+    width: 100vw;
+}
+
+.slideshow-conteiner{
+   
+  position: absolute;
+  width: 500px;
+  height: 150px;
+  left: 50%;
+  transform: translate(-50%);
+
+    
+}
+.imgSlide{vertical-align: middle;} 
+
+.imagens{
+    width: 500px;
+    height: 150px;
+    position: absolute;
+   
+   
+
+}
+
+.setas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 450px;
+   position: absolute;
+   top: 0;
+    width: 500px;
+    height: 150px;
+  
+}
+.slide{
+    display: none;
+        width: 80%;
+    max-width: 500px;
+    height: 40vw;
+    max-height: 150px;
+    
+
+    position: relative;
+    
+}
+
+
+
+
+.slider{
+    object-fit: cover;
+    
+    
+}
+
+
+
+.btnAnterior, .btnProximo{
+    color: aqua;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+.indicadores{
+    text-align: center;
+    position: relative;
+    top: 160px;
+}
+
+
+.indicador{
+    cursor: pointer;
+    height: 10px;
+    width: 10px;
+    margin: 2px;
+    background-color: aquamarine;
+    border-radius: 50%;display: inline-block;
+    transition: background-color 0.5s ease;
+}
+
+.ativo, .indicador:hover{
+    background-color: brown;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.3s;
+}
+
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
+
