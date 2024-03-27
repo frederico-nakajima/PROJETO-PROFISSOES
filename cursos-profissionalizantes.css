@@ -10,8 +10,8 @@ body{
 .slideshow-conteiner{
    
   position: absolute;
-  width: 500px;
-  height: 150px;
+  width: 329px;
+  height: 164px;
   left: 50%;
   transform: translate(-50%);
 
@@ -32,11 +32,11 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 450px;
+    gap: 295px;
    position: absolute;
    top: 0;
-    width: 500px;
-    height: 150px;
+    width:329px;
+    height:164px;
   
 }
 .slide{
@@ -71,7 +71,7 @@ body{
 .indicadores{
     text-align: center;
     position: relative;
-    top: 160px;
+    top: 165px;
 }
 
 
