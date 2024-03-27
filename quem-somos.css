@@ -134,10 +134,8 @@ picture{
 
 
 
-.material-symbols-outlined{
-    display: block;
-    
-}
+
+
 
 
 .responsivo{
@@ -157,9 +155,8 @@ picture{
 .gerente-perfil{
     
     padding: 0px 30px ;
-    display: flex;
     
-    align-items: center;
+   
     
     
     
