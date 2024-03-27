@@ -24,32 +24,7 @@ body{
   
    
 }
-#metrica1 {
-    display: flex;
-    justify-content: center; 
-    align-items: start; 
-   
-    border-bottom: 1px solid gray;
-    margin: 0px 30px;
-    width: 90vw; 
-    position: relative;
-  
-   
-}
 
-#metrica2 {
-    display: flex;
-    justify-content: center; 
-    align-items: start; 
-   
-    border-bottom: 1px solid gray;
-    margin: 0px 30px;
-    width: 90vw; 
-    
-    position: relative;
-  
-   
-}
 
 
 .expand{
