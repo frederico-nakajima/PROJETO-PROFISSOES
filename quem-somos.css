@@ -14,12 +14,11 @@ h4{
     margin: 30px auto;
 }
 
-#faq{
-    display: flex;
+
    
    
 
-}
+
 
 .metrica{
     margin: 20px auto;
@@ -32,10 +31,7 @@ h2{
     text-align: center;
 }
 
-.gerente-perfil{
-    display: flex;
-    margin: 10px auto;
-}
+
 span{
     display: block;
 }
@@ -47,9 +43,7 @@ span{
     text-align: center;
     margin: 20px auto;
 }
-.gerente-rh{
-    margin: 10px auto;
-}
+
 hr{
     border-color: gray;
    
