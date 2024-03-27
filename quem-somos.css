@@ -16,7 +16,7 @@ body{
     margin: 30px auto 20px auto;
 }
 #metrica {
-    display: flex;
+    
     justify-content: center; 
     align-items: start; 
     border-top: 1px solid gray;
