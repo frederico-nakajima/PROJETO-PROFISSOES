@@ -17,6 +17,7 @@ h4{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    cursor: pointer;
 
 }
 
@@ -29,7 +30,9 @@ h4{
     font-size: 1.5rem;
 }
 
-
+#resposta{
+    display: none;
+}
 .metrica{
     margin: 20px auto;
 }
@@ -40,8 +43,15 @@ h4{
 h2{
     text-align: center;
 }
+.expand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-
+#expand_more{
+    display: none;
+}
 
 .texto{
     margin: 10px;
@@ -56,4 +66,13 @@ hr{
     border-color: gray;
    
    
+}
+span{
+    display: block;
+}
+.gerente-perfil{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
