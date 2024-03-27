@@ -6,6 +6,7 @@
 body{
     background-color: black;
     color: white;
+   margin: auto 10vw;
 }
 
 h4{
@@ -27,6 +28,10 @@ h4{
     margin: 50px auto;
 }
 
+h2{
+    text-align: center;
+}
+
 .gerente-perfil{
     display: flex;
     margin: 10px auto;
@@ -34,4 +39,14 @@ h4{
 span{
     display: block;
 }
-
+.texto{
+    margin-left: 5px;
+}
+.gerente{
+    display: block;
+    text-align: center;
+    margin: 20px auto;
+}
+.gerente-rh{
+    margin: 10px auto;
+}
