@@ -4,8 +4,23 @@ const resposta1 = document.getElementById('resposta1')
 const resposta2 = document.getElementById('resposta2')
 const resposta3 = document.getElementById('resposta3')
 const resposta4 = document.getElementById('resposta4')
+
 const expand_less = document.getElementById('expand_less')
 const expand_more = document.getElementById('expand_more')
+
+const expand_less1 = document.getElementById('expand_less1')
+const expand_more1 = document.getElementById('expand_more1')
+
+
+const expand_less2 = document.getElementById('expand_less2')
+const expand_more2 = document.getElementById('expand_more2')
+
+const expand_less3 = document.getElementById('expand_less3')
+const expand_more3 = document.getElementById('expand_more3')
+
+const expand_less4 = document.getElementById('expand_less4')
+const expand_more4 = document.getElementById('expand_more4')
+
 
 function feedBack(){
     if(resposta.style.display === 'none'){

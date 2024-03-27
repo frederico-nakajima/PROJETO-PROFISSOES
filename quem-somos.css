@@ -9,6 +9,14 @@ body{
    margin: auto 10vw;
 }
 
+strong{
+    color: gray;
+}
+
+strong:hover{
+    color: white;
+}
+
 h4{
     text-align: center;
     margin: 30px auto;
@@ -34,6 +42,18 @@ h4{
     display: none;
 }
 .metrica{
+    margin: 20px auto;
+}
+.metrica1{
+    margin: 20px auto;
+}
+.metrica2{
+    margin: 20px auto;
+}
+.metrica3{
+    margin: 20px auto;
+}
+.metrica4{
     margin: 20px auto;
 }
 .classe-gerentes{
@@ -87,4 +107,8 @@ span{
     justify-content: center;
     align-items: center;
 
+}
+
+.done{
+    color: yellow;
 }
