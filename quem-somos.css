@@ -6,7 +6,6 @@
 body{
     background-color: black;
     color: white;
-    height: 100vh;
 }
 
 h4{
@@ -30,7 +29,9 @@ h4{
 
 .gerente-perfil{
     display: flex;
+    margin: 10px auto;
 }
 span{
     display: block;
 }
+
